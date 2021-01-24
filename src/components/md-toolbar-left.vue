@@ -173,6 +173,13 @@
                 link_type: 'link'
             }
         },
+        watch:{
+            s_img_link_open(newVlaue) {
+              // fix issue #644
+              // 默认编辑器z-index为1500时有效
+              this.$parent.$el.style.zIndex = newVlaue ? 1501 : 1500;
+            }
+        },
         methods: {
             $imgLinkAdd() {
                 this.$emit('toolbar_left_addlink', this.link_type, this.link_text, this.link_addr);
