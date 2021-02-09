@@ -1,6 +1,6 @@
 {
-  "name": "mavon-editor",
-  "version": "2.9.1",
+  "name": "friday-editor",
+  "version": "2.9.3",
   "description": "Vue markdown editor",
   "main": "dist/mavon-editor.js",
   "types": "./mavon-editor.d.ts",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/hinesboy/mavonEditor#readme",
   "dependencies": {
-    "highlight.js": "^9.11.0",
+    "highlight.js": "^10.0.0",
     "highlight.js-async-webpack": "^1.0.4",
     "xss": "^1.0.6"
   },
